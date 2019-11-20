@@ -10,31 +10,7 @@ public class Moon : MonoBehaviour
     [SerializeField] GameObject earth;
     private void Update()
     {
-             
-     
-     
-       
-        transform.position = new Vector3(x,0,z);
-
+      
     }
 
-    void b()
-    {
-        for(int i = 0;  i <= 30; )
-       {
-            i++;
-            x -= 1f;
-            z += 1f;
-       }
-
-    }
-    void a()
-    {
-         for(int i = 0; i <= 30;)
-       {
-           i++;
-           x += 1f;
-           z -= 1f;
-       }
-    }
 }
